@@ -32,14 +32,14 @@ Tags: go, golang, intro, overview
 * Feature Overview
 - Small and powerful standard library
 - Garbage collected
-- Statically compile (or cross-compile!) and deploy almost anywhere
+- Cross-compile and deploy almost anywhere
 - Super-fast compiles and single binary deploys
 - Language/standard library are UTF-8 native
 - Design and behavior of language/standard library is opinionated
 - Since v1.5, compiler toolchain is written in Go
 - Built in unit testing
 - Easy integration with C code/libraries
-- Language sloga:  "Less is more" 
+- Language slogan:  "Less is more" 
 
 
 * Long Story Short...
@@ -191,8 +191,8 @@ const (
     }
 - Maps (known as hashes in other languages) provides a robust map of key, value pairs for any type:
     var a = map[string]int{
-        "foo": 10,
-        "bar": 15,
+        \"foo\": 10,
+        \"bar\": 15,
     }
     for k, v := range a {
         fmt.Printf(">> %s: %d\n", k, v)
