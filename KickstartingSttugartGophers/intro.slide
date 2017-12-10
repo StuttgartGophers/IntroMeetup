@@ -26,7 +26,7 @@ Tags: go, golang, intro, overview
 
 * So what is Go?
 - Go is a compiled programming language in the tradition of C and C++, with static typing, garbage collection, and unique language features enabling concurrent programming
-- Hello World (src/hello.go):
+- Hello Stuttgart (src/hello.go):
 .code src/hello.go
 
 * Feature Overview
@@ -39,17 +39,17 @@ Tags: go, golang, intro, overview
 - Since v1.5, compiler toolchain is written in Go
 - Built in unit testing
 - Easy integration with C code/libraries
-- Less-is-more!
+- Language sloga:  "Less is more" 
 
-* In My Opinion...
-- Great hybrid offspring of Python, C, Java, Ruby, and a variety of other languages
+
+* Long Story Short...
+- Great hybrid  of Pthon, C, Java, Ruby, and a variety of other languages
 - The static typing, easy compilation, and rapid "compile and deploy anywhere" ability makes it uniquely suited to doing large systems coding without getting lost in dependency/JVM hell
 - Has one of the strongest ecosystems forming around the language, with the best written packages/libraries coming out over the last 2 years
-- Will likely supplant Ruby, PHP, Python, NodeJS, and .NET backend services in the next 2-6 years
-- Will likely supplant Java in the enterprise over the next 5-10 years
+- Makes one hell of a rival for backend frameworks / languages (e.g., Ruby, PHP, Python, NodeJS, and .NET) as well as Enterprise Java
 - More-or-less eliminates the problems unique to scripted *and* compiled languages 
 
-* Installing Go
+* How to Install Go
 - Download binaries from [[https://golang.org/dl][golang.org/dl]]
 - Or, install from source:
 .code src/install.sh
