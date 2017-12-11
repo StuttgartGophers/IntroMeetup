@@ -372,9 +372,7 @@ const (
     c := make(chan int)
     c <- 10 // write 10 to c
     j := <-c  // read int from c
-- Channels can be read or write only:
-    var c <-chan int // read only chan
-    var d chan<- int // write only chan
+
 
 * Goroutine and Channel example
 .code src/channels.go /^func main/,/^}/
@@ -473,19 +471,5 @@ const (
 - crypto/rsa crypto/elliptic -- cryptographic libs
 - reflect, regexp -- reflection and regular expressions
 - And many many many more!
-
-* What Go doesn't have (and why this is a good thing)
-- Generics
-- Implicit comparisons
-- Overloading
-- Objects
-- Ternary operator (?:)
-- Miscellany data structures (vector, set, etc)
-- Package manager
-
-* Working Example
-- See src/ipinfo.go
-
-* How Big Companies are Using Go
 
 * Q&A

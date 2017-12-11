@@ -14,7 +14,6 @@ func main() {
 		wg.Add(1)
 		go func(z int) {
 			defer wg.Done()
-			time.Sleep(1 * time.Second)
 			c <- z
 		}(i)
 	}
