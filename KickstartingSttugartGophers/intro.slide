@@ -65,10 +65,6 @@ Tags: go, golang, intro, overview
 - Install (puts hello in $GOPATH/bin/):
     $ go install
 
-* Some Notes on Go's Syntax/Design
-- Go designers have purposefully omitted many common features in other languages in the interest of simplicity and readability above almost all else
-- The idea is that if it can already be done through some other feature available to the language, then there is no need to add useless language features
-
 * Packages and go get
 - Go code is grouped in "packages" and is simply a directory containing one or more .go files
 - Packages are retrievable via go get:
