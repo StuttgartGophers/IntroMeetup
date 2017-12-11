@@ -9,7 +9,6 @@ Tags: go, golang, intro, overview
 * But, First...
 - Big thank you to [[http://www.zoi.de/][ZOI]] for hosting this event
 
-
 * About Stuttgart Gophers
 - Each session will have one or two (related) talks totaling roughly 50 minutes, with a 15-20 minute Q&A after each talk
 - Depending on popularity, will have regular meetings every month or every two months
@@ -54,8 +53,6 @@ Tags: go, golang, intro, overview
 - Or, install from source:
 .code src/install.sh
 
-* Hello World again:
-.code src/hello.go
 
 * Run/Build/Install example:
 - Run:
